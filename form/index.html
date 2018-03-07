@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  vsnehil92</title>
+
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+  <div id="App">
+      <form @submit.prevent="submitForm">
+          <div>
+            <input v-model="name" type="text" placeholder="Enter your name"/>
+        </div>
+            <div>
+          <input v-model="number" type="number" placeholder="Enter your number" />
+        </div>
+        <div>
+            <input v-model="email" type="email" placeholder="enter your email" />
+        </div>
+        <div>
+        <button type="submit">Submit</button>
+      </div>
+      </form>
+  
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
